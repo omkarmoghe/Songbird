@@ -14,6 +14,14 @@ ACCESS_TOKEN = 'go'
 ACCESS_TOKEN_SECRET = 'here'
 ```
 
-Now you can run `python songbird_data_builder.py` to generate the data file, formatted as a Max `coll` object.
+Now you can run `python songbird.py filename [keywords...]` to generate the data file, formatted as a Max `coll` object.
+
+For example, `python songbird.py sick_bands.txt #SickBands` would generate a file called `sick_bands.txt` with the corresponding MIDI data based on tweets from the "#SickBands" trending topic.
+
+Max coll objects are formatted as follows:
+```
+index, value1 value2;
+```
+Internally, `value1` and `value2` are being scaled and used as pitch and velocity respectively.
 
 Finally, run the Max patch to play music!

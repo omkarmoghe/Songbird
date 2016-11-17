@@ -742,9 +742,9 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 85.0, 238.0, 98.0, 22.0 ],
+									"patching_rect" : [ 85.0, 238.0, 99.0, 22.0 ],
 									"style" : "",
-									"text" : "scale 0 16 0 110"
+									"text" : "scale 0 16 0 100"
 								}
 
 							}
